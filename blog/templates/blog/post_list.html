@@ -7,10 +7,10 @@
 
     <div class="mb-4">
         <h3><a href="#">{{post.title}}</a></h3>
-        <small>Posted on {{post.title}}</small>
+        <small>Posted on {{post.created_at}}</small>
         <hr>
         <p class="text-muted">
-            {{post.title}}
+            {{post.text|linebreaks|safe|truncatewords:100}}
             <a href="#">[Read more]</a>
         </p>
         <a href="#" class="badge badge-info">{{post.category.name|capfirst}}</a>
