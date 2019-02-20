@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 319 319" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g>
+        <path d="M227.321,7.5L40.342,7.5L40.342,310.688L277.846,310.688L277.846,58.025L227.321,7.5Z" style="fill:rgb(232,232,232);fill-rule:nonzero;"/>
+        <path d="M235.14,32.763L40.342,32.763L40.342,7.5L227.321,7.5L235.14,32.763Z" style="fill:rgb(0,74,148);fill-rule:nonzero;"/>
+        <path d="M227.321,58.025L277.846,58.025L227.321,7.5L227.321,58.025Z" style="fill:rgb(209,211,211);fill-rule:nonzero;"/>
+        <path d="M283.149,52.723L232.625,2.197C231.218,0.79 229.311,0 227.321,0L40.342,0C36.199,0 32.842,3.358 32.842,7.5L32.842,310.688C32.842,314.831 36.199,318.188 40.342,318.188L277.846,318.188C281.989,318.188 285.346,314.831 285.346,310.688L285.346,58.025C285.346,56.036 284.556,54.129 283.149,52.723ZM234.821,25.606L259.739,50.525L234.821,50.525L234.821,25.606ZM47.842,15L219.821,15L219.821,25.263L47.842,25.263L47.842,15ZM270.346,303.188L47.842,303.188L47.842,40.263L219.821,40.263L219.821,58.026C219.821,62.169 223.178,65.526 227.321,65.526L270.345,65.526L270.345,303.188L270.346,303.188Z" style="fill:rgb(51,62,72);fill-rule:nonzero;"/>
+        <rect x="47.84" y="15" width="171.981" height="10.263" style="fill:rgb(164,198,57);"/>
+    </g>
+    <g transform="matrix(0.979116,0,0,0.979116,5.89444,6.08976)">
+        <text x="75.861px" y="281.386px" style="font-family:'Arial-Black', 'Arial', sans-serif;font-weight:900;font-size:69.058px;fill:rgb(51,62,72);">APK</text>
+    </g>
+    <g id="Android_robot" transform="matrix(0.375415,0,0,0.375415,159.094,140.596)">
+        <g transform="matrix(1,0,0,1,-147,-172.5)">
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="294" height="345"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1,0,0,1,147,70)">
+                    <g id="b">
+                        <ellipse cx="0" cy="41" rx="91" ry="84" style="fill:rgb(164,198,57);stroke:white;stroke-width:14.4px;"/>
+                        <path d="M91,42C91,29.858 81.142,20 69,20L-69,20C-81.142,20 -91,29.858 -91,42L-91,180C-91,192.142 -81.142,202 -69,202L69,202C81.142,202 91,192.142 91,180L91,42Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:14.4px;"/>
+                    </g>
+                    <g id="a" transform="matrix(-1,0,0,1,0,0)">
+                        <g transform="matrix(0.87462,0.48481,-0.48481,0.87462,0,0)">
+                            <path d="M27,-79.5C27,-83.087 24.087,-86 20.5,-86C16.913,-86 14,-83.087 14,-79.5L14,-6.5C14,-2.913 16.913,0 20.5,0C24.087,0 27,-2.913 27,-6.5L27,-79.5Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        </g>
+                        <path id="c" d="M-95,65C-95,51.754 -105.754,41 -119,41C-132.246,41 -143,51.754 -143,65L-143,150C-143,163.246 -132.246,174 -119,174C-105.754,174 -95,163.246 -95,150L-95,65Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        <g id="c1" serif:id="c" transform="matrix(1,0,0,1,85,97)">
+                            <path d="M-95,65C-95,51.754 -105.754,41 -119,41C-132.246,41 -143,51.754 -143,65L-143,150C-143,163.246 -132.246,174 -119,174C-105.754,174 -95,163.246 -95,150L-95,65Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        </g>
+                    </g>
+                    <g id="a1" serif:id="a">
+                        <g transform="matrix(0.87462,0.48481,-0.48481,0.87462,0,0)">
+                            <path d="M27,-79.5C27,-83.087 24.087,-86 20.5,-86C16.913,-86 14,-83.087 14,-79.5L14,-6.5C14,-2.913 16.913,0 20.5,0C24.087,0 27,-2.913 27,-6.5L27,-79.5Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        </g>
+                        <path id="c2" serif:id="c" d="M-95,65C-95,51.754 -105.754,41 -119,41C-132.246,41 -143,51.754 -143,65L-143,150C-143,163.246 -132.246,174 -119,174C-105.754,174 -95,163.246 -95,150L-95,65Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        <g id="c3" serif:id="c" transform="matrix(1,0,0,1,85,97)">
+                            <path d="M-95,65C-95,51.754 -105.754,41 -119,41C-132.246,41 -143,51.754 -143,65L-143,150C-143,163.246 -132.246,174 -119,174C-105.754,174 -95,163.246 -95,150L-95,65Z" style="fill:rgb(164,198,57);stroke:white;stroke-width:7.2px;"/>
+                        </g>
+                    </g>
+                    <g id="b1" serif:id="b">
+                        <ellipse cx="0" cy="41" rx="91" ry="84" style="fill:rgb(164,198,57);"/>
+                        <path d="M91,42C91,29.858 81.142,20 69,20L-69,20C-81.142,20 -91,29.858 -91,42L-91,180C-91,192.142 -81.142,202 -69,202L69,202C81.142,202 91,192.142 91,180L91,42Z" style="fill:rgb(164,198,57);"/>
+                    </g>
+                </g>
+                <g transform="matrix(1,0,0,1,147,70)">
+                    <path d="M-95,44.5L95,44.5" style="fill:white;fill-rule:nonzero;stroke:white;stroke-width:7.2px;"/>
+                    <circle cx="-42" cy="0" r="4" style="fill:white;stroke:white;stroke-width:7.2px;"/>
+                    <circle cx="42" cy="0" r="4" style="fill:white;stroke:white;stroke-width:7.2px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
