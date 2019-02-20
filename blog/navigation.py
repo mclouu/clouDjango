@@ -1,9 +1,20 @@
 from django.urls import reverse_lazy
 
 NAV_POSTS = 'Posts'
+
+NAV_HOME = 'Home'
+NAV_DEV = 'Dev'
+NAV_SERVICE = 'Service'
+NAV_CONTACT = 'Contact'
+
 NAV_ITEMS = (
-    (NAV_POSTS, reverse_lazy('home')),
-    ('test', reverse_lazy('home')),
+    (NAV_HOME, reverse_lazy('home')),
+    (NAV_DEV, reverse_lazy('dev')),
+    (NAV_SERVICE, reverse_lazy('service')),
+    (NAV_CONTACT, reverse_lazy('contact')),
+
+    (NAV_POSTS, reverse_lazy('blog')),
+
 )
 
 
