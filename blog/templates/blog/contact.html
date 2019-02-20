@@ -6,60 +6,126 @@
 
 
 <!-- Page Content -->
-<section class="py-5">
+<section>
     <div class="container">
-        <h1 class="display-4">TDB</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci dolore doloribus eos error
-            exercitationem, harum illo illum maiores nihil odio provident, quam quidem quis quisquam recusandae
-            reiciendis temporibus vero voluptatibus.</p>
-    </div>
+        <div class="formBox">
+            <form>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="inputBox ">
+                            <input type="text" class="form-control is-invalid" aria-describedby="textHelp"
+                                   placeholder="Nom">
+                            <div class="invalid-feedback">
+                                Ce champ est obligatoire
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="http://lorempixel.com/286/180/" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Read</a>
+                    <div class="col-sm-6">
+                        <div class="inputBox">
+                            <input type="email" class="form-control is-invalid" aria-describedby="emailHelp"
+                                   placeholder="Email">
+                            <div class="invalid-feedback">
+                                Ce champ est obligatoire
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="http://lorempixel.com/286/180/" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Read</a>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <textarea class="form-control is-invalid" id="validationTextarea"
+                                  placeholder="Message" required></textarea>
+                        <div class="invalid-feedback">
+                            Ce champ est obligatoire
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card" style="width: 18rem;">
-                <img src="http://lorempixel.com/286/180/" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Read</a>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Envoyé</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
+</section>
 
-
+<section>
+    <div class="container">
+        <iframe class="border border-dark" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8715.68331472637!2d5.75215027096781!3d49.49984077484368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47eac881a8c9dce5%3A0xb54df085b5ceeb9a!2zUsOpaG9u!5e0!3m2!1sfr!2sfr!4v1550672920165"
+                width="550" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
 </section>
 
 <style>
-body {
-  background-color: #ecf0f1;
+
+body{
+    background-color: #ecf0f1;
 }
+.formBox{
+    align: center
+	margin-top: 90px;
+	padding: 50px;
+}
+.formBox  h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	font-size: 48px;
+}
+.inputBox{
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+.inputBox .inputText{
+	position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    transition: .5s;
+    opacity: .5;
+}
+.inputBox .input{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+	transform: translateY(-30px);
+	font-size: 18px;
+	opacity: 1;
+	color: #00bcd4;
+
+}
+textarea{
+	height: 100px !important;
+}
+.button{
+	width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #03A9F4;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 
 </style>
