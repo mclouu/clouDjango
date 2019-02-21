@@ -30,13 +30,14 @@
     </div>
     {% endfor %}
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3" align="right">
     <h5>Categories</h5>
     <ul class="list-unstyled">
         {% for cat in categories %}
         <li>
             <a href="{% url 'post-list' cat.slug %}" class="badge badge-success"> {{ cat.name|capfirst }}</a>
         </li>
+       -------------
         {% endfor %}
     </ul>
 </div>
@@ -45,7 +46,6 @@
 body {
   background-color: #ecf0f1;
 }
-
 a {
  color : black;
 }

@@ -23,25 +23,25 @@ def home(request):
     context = {
         'navigation_items': navigation.navigation_items(navigation.NAV_HOME),
     }
-    return render(request, 'blog/home.html', context)
+    return render(request, 'site/home.html', context)
 
 
 def dev(request):
     context = {
         'navigation_items': navigation.navigation_items(navigation.NAV_DEV),
     }
-    return render(request, 'blog/dev.html', context)
+    return render(request, 'site/dev.html', context)
 
 
 def service(request):
     context = {
         'navigation_items': navigation.navigation_items(navigation.NAV_SERVICE),
     }
-    return render(request, 'blog/service.html', context)
+    return render(request, 'site/service.html', context)
 
 
 def contact(request):
     context = {
         'navigation_items': navigation.navigation_items(navigation.NAV_CONTACT),
     }
-    return render(request, 'blog/contact.html', context)
+    return render(request, 'site/contact.html', context)
