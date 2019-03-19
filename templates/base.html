@@ -5,8 +5,13 @@
     <meta charset="UTF-8">
 
     <title>Blog - {% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/returntop.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+
 </head>
 <body>
 
@@ -34,15 +39,43 @@
     <div class="row mt-12">
         {% block content %}{% endblock content %}
     </div>
+    <br>
 </div>
 
-<!--Footer-->
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50 shadow">
-    <div class="container text-center">
-        <small>Copyright &copy; Mathieu Romain - 2019</small>
-    </div>
-</footer>
 
+<!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+
+
+<!-- Footer -->
+<section id="footer">
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button">
+        <i class="fas fa-arrow-alt-circle-up fa-lg"></i>
+    </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/tdbClou" target="_blank">
+                        <i class="fa fa-facebook-square fa-lg"></i></a></li>
+                    <li class="list-inline-item "><a href="https://twitter.com/tdbromain" target="_blank">
+                        <i class="fa fa-twitter-square fa-lg"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/rmathieu13/" target="_blank">
+                        <i class="fa fa-linkedin-square fa-lg"></i></a></li>
+                    <li class="list-inline-item"><a href="https://github.com/mclouu" target="_blank">
+                        <i class="fa fa-github-square fa-lg"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.behance.net/rmathieu130d51" target="_blank">
+                        <i class="fab fa-behance-square fa-lg"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/rmathieu13/" target="_blank">
+                        <i class="fa fa-instagram fa-lg"></i></a></li>
+                    <li class="list-inline-item"><a href="https://soundcloud.com/romain-mathieu-tdb" target="_blank">
+                        <i class="fab fa-soundcloud fa-lg"></i></a></li>
+                    <li class="list-inline-item"><p class="h6">Par Romain Mathieu</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ./Footer -->
 
 <!-- Script -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -55,8 +88,10 @@
 
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
 <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
-<script src="{% static 'js/home.js' %}"></script>
+<script src="{% static 'js/returntop.js' %}"></script>
 
+<!-- https://buttons.github.io/ -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
 
@@ -81,7 +116,48 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: DodgerBlue;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </style>
