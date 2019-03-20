@@ -108,7 +108,6 @@ coverage.xml
 
 # Django stuff:
 *.log
-local_settings.py
 db.sqlite3
 
 # Flask stuff:
@@ -159,3 +158,4 @@ venv.bak/
 .mypy_cache/
 
 /.idea/vcs.xml
+/clouDjango/local_settings_server.py
